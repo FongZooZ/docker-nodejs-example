@@ -1,0 +1,11 @@
+FROM node:carbon
+
+# Create app directory
+WORKDIR /usr/src/app
+
+RUN npm set strict-ssl false
+RUN npm install -g nodemon
+
+EXPOSE 3009
+
+CMD [ "npm", "run", "worker" ]
