@@ -1,5 +1,7 @@
 ## Node.js web server examaple using Docker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/FongZooZ/docker-nodejs-example.svg)](https://greenkeeper.io/)
+
 ### How to use
 ```
 Install docker
